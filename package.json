@@ -1,13 +1,22 @@
 {
   "name": "managerpp-frontend",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": {
+    "name": "Gabriel Araújo Lima",
+    "email": "gabriel.araujo2902@outlook.com"
+  },
+  "license": "ISC",
   "scripts": {
     "ng": "ng",
     "start": "node --env-file=.env node_modules/.bin/ng serve",
     "build": "node --env-file=.env node_modules/.bin/ng build",
     "watch": "node --env-file=.env node_modules/.bin/ng build --watch --configuration development"
   },
-  "private": true,
+  "private": false,
+  "repository": {
+    "directory": "https://github.com/theMyntt/ManagerPP-Frontend",
+    "type": "git"
+  },
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
