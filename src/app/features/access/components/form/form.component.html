@@ -1,0 +1,26 @@
+<div>
+  <div>
+    <label
+      >Código de Acesso:
+      <entry
+        type="text"
+        placeholder="Digite aqui seu código de acesso."
+        (finalValue)="setAccessCode($event)"
+    /></label>
+  </div>
+  <div>
+    <label
+      >Senha:
+      <entry
+        type="password"
+        placeholder="Digite aqui sua senha."
+        (finalValue)="setPassword($event)"
+    /></label>
+  </div>
+  <app-button
+    text="Fazer login"
+    type="submit"
+    variant="primary"
+    (click)="submit()"
+  />
+</div>
