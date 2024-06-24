@@ -1,0 +1,23 @@
+.container {
+  height: calc(100vh - 108px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.3);
+    border-radius: 5px;
+    animation: opening 1s ease-in-out forwards;
+    @keyframes opening {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    app-form {
+      width: 100%;
+    }
+  }
+}
