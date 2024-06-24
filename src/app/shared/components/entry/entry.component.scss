@@ -3,6 +3,7 @@ input {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #b7b7b7;
+  box-sizing: border-box;
   &:focus {
     outline: none;
   }
